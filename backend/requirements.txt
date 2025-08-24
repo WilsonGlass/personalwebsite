@@ -1,0 +1,6 @@
+Flask
+Flask-Cors
+redis
+requests
+python-steam-api
+dotenv
