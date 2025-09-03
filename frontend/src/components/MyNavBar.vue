@@ -8,7 +8,6 @@
 
       <!-- Center nav -->
       <nav class="hidden md:flex items-center justify-center gap-6 text-sm flex-1">
-        <!-- If your page has sections with these IDs, anchors are perfect -->
         <a href="#home" class="hover:text-blue-400">Home</a>
         <a href="#experience" class="hover:text-blue-400">Experience</a>
         <a href="#projects" class="hover:text-blue-400">Projects</a>

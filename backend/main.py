@@ -66,8 +66,8 @@ def verify():
     print(steam_data)
     if steam_data.get("openid.mode") == "id_res" and verify_steam_login(steam_data):
         steam_id = steam_data['openid.claimed_id'].split('/')[-1]
-        session['steam_id'] = steam_id  # Store the steam ID in the session
-        return redirect("http://localhost:8080/dashboard")  # Assuming your SPA is on :8080 and has a dashboard route
+        session['steam_id'] = steam_id
+        return redirect("http://localhost:8080/dashboard")
     return jsonify(success=False, message="Invalid request."), 400
 
 
