@@ -12,6 +12,8 @@ export default defineConfig({
     vueDevTools(),
     tailwind(),
   ],
+  base: '/',
+  build: { outDir : '../docs', emptyOutDir: true },
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
