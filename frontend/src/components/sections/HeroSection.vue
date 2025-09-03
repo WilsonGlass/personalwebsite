@@ -8,7 +8,7 @@
           CS & Math @ Northeastern · AI SWE Intern @ Nasdaq · D-I coxswain. I build agentic/ML-driven systems.
         </p>
         <p class="mt-4 max-w-2xl">
-          Contact Me!
+          Contact me! I am currently searching for full-time positions.
         </p>
         <ContactLogos
           email="wilsonglass1@gmail.com"

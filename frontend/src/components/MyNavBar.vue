@@ -11,8 +11,9 @@
         <!-- If your page has sections with these IDs, anchors are perfect -->
         <a href="#home" class="hover:text-blue-400">Home</a>
         <a href="#experience" class="hover:text-blue-400">Experience</a>
-        <a href="#education" class="hover:text-blue-400">Education</a>
         <a href="#projects" class="hover:text-blue-400">Projects</a>
+        <a href="#sport" class="hover:text-blue-400">Sport</a>
+        <a href="#education" class="hover:text-blue-400">Education</a>
 
         <!-- Résumé download -->
         <a

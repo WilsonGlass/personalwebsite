@@ -9,6 +9,9 @@ import requests
 from urllib.parse import urlencode
 from dotenv import load_dotenv
 
+# TODO I want to make it so that you can log into steam and see your inventory on my website because I had another private repo that had similar logic.
+# Would be cool to show off live and would not be too hard.
+
 load_dotenv()
 
 app = Flask("My Website", static_folder="dist")

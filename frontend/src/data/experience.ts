@@ -45,7 +45,7 @@ export const experience: Job[] = [
     bullets: [
       "Integrated, tested, and deployed software to aircraft pods; validated features on production hardware.",
       "Supported an $8.4M prototype UAV pod; wrote Selenium front-end tests and Ansible build playbooks.",
-      "Improved a custom AWS speech-recognition model for pilot voice commands.",
+      "Improved a custom speech-recognition model for pilot voice commands.",
     ],
     tech: ["Python", "Ansible", "Linux", "Docker", "Vue", "Node"],
   },

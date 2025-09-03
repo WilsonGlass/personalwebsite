@@ -1,13 +1,13 @@
 <template>
   <!-- wrapper (bare by default; set encased=true for a subtle tray) -->
   <div
-    class="inline-flex items-center gap-3 sm:gap-4"
+    class="inline-flex items-center gap-3 sm:gap-4 py-1.5"
     :class="encased ? 'rounded-2xl border border-gray-700/70 bg-white/5 px-2 py-2' : ''"
   >
     <!-- Email -->
     <a
       :href="`mailto:${email}`"
-      class="group rounded-xl p-1.5 hover:bg-white/10 focus:outline-none focus-visible:ring-2 focus-visible:ring-green-400"
+      class="group rounded-xl focus:outline-none focus-visible:ring-2 focus-visible:ring-green-400"
       aria-label="Email"
       title="Email"
     >
@@ -27,7 +27,7 @@
       :href="github"
       target="_blank"
       rel="noopener noreferrer"
-      class="group rounded-xl p-1.5 hover:bg-white/10 focus:outline-none focus-visible:ring-2 focus-visible:ring-green-400"
+      class="group rounded-xl focus:outline-none focus-visible:ring-2 focus-visible:ring-green-400"
       aria-label="GitHub"
       title="GitHub"
     >
@@ -46,7 +46,7 @@
       :href="linkedin"
       target="_blank"
       rel="noopener noreferrer"
-      class="group rounded-xl p-1.5 hover:bg-white/10 focus:outline-none focus-visible:ring-2 focus-visible:ring-green-400"
+      class="group rounded-xl focus:outline-none focus-visible:ring-2 focus-visible:ring-green-400"
       aria-label="LinkedIn"
       title="LinkedIn"
     >

@@ -14,7 +14,6 @@
           <ProjectsSection :projects="projects" />
           <SportSection />
           <EducationSection :courses="courses" />
-          <ContactSection />
         </main>
 
         <PageFooter :year="currentYear" />
@@ -30,7 +29,6 @@ import ProjectsSection from '@/components/sections/ProjectsSection.vue';
 import ExperienceSection from '@/components/sections/ExperienceSection.vue';
 import SportSection from '@/components/sections/SportSection.vue';
 import EducationSection from '@/components/sections/EducationSection.vue';
-import ContactSection from '@/components/sections/ContactSection.vue';
 import PageFooter from '@/components/layout/PageFooter.vue';
 
 import { projects } from '@/data/projects';
